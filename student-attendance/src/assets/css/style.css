@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.attendance {
+  max-width: 90%;
+  margin: 10px auto;
+}
+
+.attendance form {
+  max-width: 400px;
+  margin: 40px auto;
+  display: flex;
+}
+.attendance form input {
+  width: 80%;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-size: 20px;
+}
+.attendance form button {
+  width: 20%;
+  border: none;
+  background-color: rgb(212, 220, 228);
+  color: black;
+  padding: 5px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.title {
+  text-align: center;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.content > div {
+  border: 1px solid black;
+  border-radius: 10px;
+  min-height: 200px;
+}
+
+.student {
+  display: flex;
+  background-color: #d1d1d1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  margin: 5px 0;
+}
+.student button {
+  border: none;
+  background-color: aliceblue;
+  color: black;
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.student button:hover {
+  background-color: rgb(216, 223, 230);
+}
