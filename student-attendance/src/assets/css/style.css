@@ -68,3 +68,7 @@
 .student button:hover {
   background-color: rgb(216, 223, 230);
 }
+
+.disable-color {
+  background-color: #c6c6c6 !important;
+}
